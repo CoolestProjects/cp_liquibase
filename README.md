@@ -51,7 +51,7 @@ default['cp_liquibase']['dist_dir'] = "/opt/liquibase/dist"
 
 
 
-default['cp_liquibase']['url']="http://artifactory.cpware.ie/artifactory/simple/ext-binary/liquibase/liquibase/3.2.2/liquibase-3.2.2.zip"
+default['cp_liquibase']['url']="your binary url"
 default['cp_liquibase']['binary_file_name']="liquibase-3.2.2.zip"
 default['cp_liquibase']['driver_jar_url'] = "http://artifactory.cpware.ie/artifactory/simple/ext-binary/mysql-connector-java/mysql-connector-java/5.1.25/mysql-connector-java-5.1.25.jar"
 default['cp_liquibase']['driver_file_name'] = "mysql-connector-java-5.1.25.jar"
