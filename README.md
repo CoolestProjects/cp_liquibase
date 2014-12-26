@@ -51,9 +51,9 @@ default['cp_liquibase']['dist_dir'] = "/opt/liquibase/dist"
 
 
 
-default['cp_liquibase']['url']="your binary url"
+default['cp_liquibase']['url']="http://downloads.sourceforge.net/project/liquibase/Liquibase%20Core/liquibase-3.2.2-bin.zip?r=&ts=1413845720&use_mirror=kent"
 default['cp_liquibase']['binary_file_name']="liquibase-3.2.2.zip"
-default['cp_liquibase']['driver_jar_url'] = "http://artifactory.cpware.ie/artifactory/simple/ext-binary/mysql-connector-java/mysql-connector-java/5.1.25/mysql-connector-java-5.1.25.jar"
+default['cp_liquibase']['driver_jar_url'] = "http://central.maven.org/maven2/mysql/mysql-connector-java/5.1.25/mysql-connector-java-5.1.25.jar"
 default['cp_liquibase']['driver_file_name'] = "mysql-connector-java-5.1.25.jar"
 default['cp_liquibase']['db_driver'] = "com.mysql.jdbc.Driver"
 default['cp_liquibase']['db_user'] = "root"
@@ -62,5 +62,5 @@ default['cp_liquibase']['db_url'] = "jdbc:mysql://localhost:3306/liquibase_test"
 default['cp_liquibase']['command'] = "update"
 
 
-default['cp_liquibase']["sql_binary_url"]="http://artifactory.cpware.ie/artifactory/simple/libs-release-local/com/cpware/liquibase/sample-sql/liquibase-sample-sql.zip"
+default['cp_liquibase']["sql_binary_url"]="your binary url"
 ````
