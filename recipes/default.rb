@@ -65,7 +65,7 @@ else
     user "#{node['cp_liquibase']['user']}"
     group "#{node['cp_liquibase']['group']}"
     code <<-EOH
-  	  curl -o #{node['cp_liquibase']['dist_dir']}/sql.zip --user #{node['cp_baseconfig']['artifactory']['username']}:#{node['cp_baseconfig']['artifactory']['password']} #{node['cp_liquibase']["sql_binary_url"]}
+  	  curl -o #{node['cp_liquibase']['dist_dir']}/sql.zip --user #{node['cp_baseconfiguration']['artifactory']['username']}:#{node['cp_baseconfiguration']['artifactory']['password']} #{node['cp_liquibase']["sql_binary_url"]}
     EOH
   end
 end
